@@ -2,7 +2,7 @@
 
 /* Style for body specifies a background color */
 body {
-	background-color: #191970;
+	background-color: #05A653;
 }
 
 /* Style for the container element */
@@ -16,7 +16,7 @@ body {
 header {
 	font-family: Verdana, Arial, sans-serif;
 	margin-top: 0.2em;
-	background-color: #308559;
+	background-color: #00ACFF;
 	color: #FFFFFF;
 	padding: 1em;
 }
