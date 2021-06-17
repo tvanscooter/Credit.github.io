@@ -46,7 +46,7 @@ footer {
   overflow:auto;
 }
 
-nav{float:right;}
+nav{float:left;}
 
 .logo img{float:left;}
 
@@ -55,7 +55,7 @@ border-radius: 50%;
 }
 
 ul li{
-  display: inline-block; padding:10px;
+  display: inline-block; padding:0px;
   font-size:20px; font-family:raleway;
   border-radius: 1em;
 }
