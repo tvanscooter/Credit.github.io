@@ -19,6 +19,8 @@ header {
 	background-color: #82D3FF;
 	color: #FFFFFF;
 	padding: 1em;
+	border-radius: 1em;
+	box-shadow: .5em .5em .5em #404040;
 }
 
 /* Style for the main element  */
@@ -26,6 +28,7 @@ main {
 	display: block;
 	padding: 1em;
 	background-color: #FFFFFF;
+	border-radius: 1em;
 	box-shadow: .5em .5em .5em #404040;
 }
 
