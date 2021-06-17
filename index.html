@@ -23,6 +23,29 @@
 	<marquee behavior=alternate width=”202″ scrollamount=”8″ scrolldelay=”95″ height=”37″ bgcolor=”#C9CCCF”>WELCOME!</marquee>
 	<br>
 	<br>
+	<style>
+  body {
+    background-image: url('/pix/samples/bg1.gif');
+  }
+  main {
+    margin-bottom: 200%;
+  }
+  .floating-menu {
+    font-family: sans-serif;
+    background: yellowgreen;
+    padding: 5px;;
+    width: 130px;
+    z-index: 100;
+    position: fixed;
+  }
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: white;
+  }
+</style>
 	<!-- Use the main area to add the main content of the webpage -->
 	<main>
 		<p>The reason for building good credit is becuase it allows you the oppurtunity to apply for funding. So you can recieve loans for your education, apply for a mortgage, for a vehicle, or even a job. Maintaining responsibility while using credit is a must. There are various ways to build good credit.</p>
@@ -34,7 +57,15 @@
 		<br>
 		<li>Use only a small amount of the credit you have available.</li>
 		</ul>
+		<br>
 		
+   		 <nav class="floating-menu">
+   		 <h3>Floating Menu</h3>
+  		  <a href="/css/">CSS</a>
+   		 <a href="/html/">HTML</a>
+   		 <a href="/coldfusion/">ColdFusion</a>
+   		 <a href="/database/">Database</a>
+ 	 </nav>
 	</main>
 
 	<!-- Use the footer area to add webpage footer content -->
