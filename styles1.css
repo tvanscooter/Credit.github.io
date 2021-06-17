@@ -19,6 +19,7 @@ header {
 	background-color: #82D3FF;
 	color: #FFFFFF;
 	padding: 1em;
+	text-align: center;
 	border-radius: 1em;
 	box-shadow: .5em .5em .5em #404040;
 }
@@ -49,13 +50,13 @@ footer {
 nav{float:left;}
 
 .logo img{float:left;}
-
+vertical-align: middle;
 img.rounded-corners {
 border-radius: 50%;
 }
 
 ul li{
-  display: inline-block; padding:0px;
+  display: inline-block; padding:30px;
   font-size:20px; font-family:raleway;
   border-radius: 1em;
 }
